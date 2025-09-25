@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Travel Ledger - Professional Travel Insights</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9fafb;
+            margin: 0;
+            padding: 0;
+            color: #2f3b44;
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.75;
+        }
+        header {
+            background: linear-gradient(135deg, #2f4550 0%, #4a6c7d 100%);
+            color: #f0f3f5;
+            padding: 50px 40px;
+            text-align: center;
+            border-radius: 0 0 50% 50% / 0 0 100% 100%;
+            box-shadow: 0 8px 36px rgba(47, 69, 80, 0.35);
+            font-weight: 300;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.6rem;
+            font-weight: 100;
+            letter-spacing: 0.06em;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        header p {
+            font-size: 1.3rem;
+            letter-spacing: 0.08em;
+            font-weight: 200;
+            opacity: 0.9;
+        }
+        main {
+            padding: 60px 30px;
+        }
+        section {
+            max-width: 900px;
+            margin: 0 auto 70px auto;
+            font-weight: 400;
+        }
+        h2 {
+            font-family: 'Georgia', serif;
+            font-weight: 600;
+            font-size: 2.2rem;
+            margin-bottom: 18px;
+            border-bottom: 2px solid #4a6c7d;
+            padding-bottom: 6px;
+            color: #324f62;
+        }
+        p {
+            font-size: 1.22rem;
+            margin-bottom: 22px;
+            max-width: 850px;
+        }
+        ul {
+            max-width: 740px;
+            margin-left: 28px;
+            color: #506e89;
+            font-weight: 500;
+            line-height: 1.6em;
+            margin-bottom: 28px;
+        }
+        ul li {
+            margin-bottom: 11px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 880px;
+            margin: 0 auto 24px auto;
+        }
+        .gallery img {
+            width: 28%;
+            margin-bottom: 18px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(47, 69, 80, 0.14);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            object-fit: cover;
+            height: 220px;
+        }
+        .gallery img:hover {
+            transform: scale(1.07);
+        }
+        button {
+            display: block;
+            margin: 40px auto 0 auto;
+            padding: 18px 60px;
+            font-size: 1.2rem;
+            background-color: #4a6c7d;
+            border: none;
+            border-radius: 12px;
+            color: #f0f3f5;
+            cursor: pointer;
+            font-weight: 600;
+            box-shadow: 0 8px 25px rgba(74, 108, 125, 0.6);
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #366072;
+        }
+        footer {
+            background-color: #2f4550;
+            color: #f0f3f5;
+            text-align: center;
+            padding: 22px 10px;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 1.05rem;
+            letter-spacing: 0.06em;
+            box-shadow: 0 -5px 15px rgba(47, 69, 80, 0.27);
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+            margin-top: 80px;
+        }
+        @media (max-width: 980px) {
+            .gallery img {
+                width: 45%;
+                height: 180px;
+            }
+        }
+        @media (max-width: 600px) {
+            .gallery img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Travel Ledger</h1>
+        <p>Professional Perspectives on Global Travel</p>
+    </header>
+    <main>
+        <section>
+            <h2>About the Blog</h2>
+            <p>Welcome to Travel Ledger, a resource committed to providing thoughtful insights and practical information about international travel. Our mission is to inform seasoned travelers and newcomers alike through well-researched articles and expert advice.</p>
+        </section>
+        <section>
+            <h2>Featured Destinations</h2>
+            <p>Explore carefully selected destinations known for their cultural richness and natural beauty:</p>
+            <ul>
+                <li><strong>Kyoto, Japan:</strong> Experience heritage sites and historic temples amidst serene gardens.</li>
+                <li><strong>Santorini, Greece:</strong> Renowned for its stunning vistas and authentic Mediterranean cuisine.</li>
+                <li><strong>Banff National Park, Canada:</strong> Majestic landscapes offering hiking, wildlife spotting, and relaxation.</li>
+            </ul>
+            <p>Each destination offers unique experiences supported by comprehensive travel guides and tips.</p>
+        </section>
+        <section>
+            <h2>Travel Preparation Tips</h2>
+            <ul>
+                <li>Maintain copies of important identification and health documents, both digital and physical.</li>
+                <li>Plan packing strategically to balance convenience with preparedness for varied climates.</li>
+                <li>Acquire basic language skills relevant to your destination to enhance communication and cultural respect.</li>
+                <li>Research local customs and legal requirements to ensure respectful and lawful travel.</li>
+            </ul>
+            <p>Effective preparation enhances safety and enjoyment, reducing potential challenges during trips.</p>
+        </section>
+        <section class="gallery">
+            <h2>Gallery Highlights</h2>
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="Beach Sunset" />
+
+        </section>
+        <section>
+            <button onclick="alert('Thank you for your interest. We look forward to connecting with you soon.');">Send Greeting</button>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Travel Ledger | All rights reserved
+    </footer>
+</body>
+</html>
